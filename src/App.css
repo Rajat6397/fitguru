@@ -1,0 +1,60 @@
+*{
+  padding: 0;
+  margin:0;
+}
+body{
+  /* background-image: url("https://wallpaperaccess.com/full/2968326.jpg"); */
+  width:100%;
+   /* height:100%;  */
+}
+.navbar{
+  display: flex;
+  justify-content: space-around;
+  background-color: #2f3032;
+  color:#fff;
+  cursor:pointer;
+  padding: 10px;
+}
+a{
+  color:#fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+.container{
+background-image: url("https://wallpaperaccess.com/full/2968326.jpg"); 
+width:100%;
+padding: 200px;
+}
+/* .container, img{
+  width:100%;
+} */
+h2{
+  color:#fff;
+}
+button{
+  color:#fff;
+  background-color: red;
+  padding:16px;
+  border-radius: 25px;
+  border:none;
+}
+.lower{
+    text-align: center;
+  justify-content: center; 
+  align-items: center; 
+   /* padding-top: 720px; */
+}
+.lower, #btn{
+    padding: 10px;
+    border-radius: 2px;
+}
+.lower, input{
+  width:60%;
+  padding: 8px;
+}
+input:hover{
+  border-color: lightgrey;
+}
+.footer{
+      background-color: #2f3032;
+}
